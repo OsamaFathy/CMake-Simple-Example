@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/team.dir/src/Player.cpp.o CMakeFiles/team.dir/src/Team.cpp.o CMakeFiles/team.dir/src/Main.cpp.o  -o team -rdynamic 

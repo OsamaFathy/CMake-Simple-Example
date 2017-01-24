@@ -1,0 +1,1 @@
+/home/osama/cmake/exploringBB/extras/cmake/cmake example/Simple Program/build/CMakeFiles/team.dir

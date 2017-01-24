@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Player.h
+iostream
+-
+
+../include/Team.h
+vector
+-
+iostream
+-
+Player.h
+../include/Player.h
+
+/home/osama/cmake/exploringBB/extras/cmake/cmake example/Simple Program/src/Main.cpp
+iostream
+-
+Team.h
+/home/osama/cmake/exploringBB/extras/cmake/cmake example/Simple Program/src/Team.h
+
+/home/osama/cmake/exploringBB/extras/cmake/cmake example/Simple Program/src/Player.cpp
+Player.h
+/home/osama/cmake/exploringBB/extras/cmake/cmake example/Simple Program/src/Player.h
+
+/home/osama/cmake/exploringBB/extras/cmake/cmake example/Simple Program/src/Team.cpp
+Team.h
+/home/osama/cmake/exploringBB/extras/cmake/cmake example/Simple Program/src/Team.h
+
