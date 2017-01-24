@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 2.8.12)
-project (teams)
-include_directories(include)
-file(GLOB SOURCES "src/*.cpp")
-add_executable(teams ${SOURCES})
-
-#set(SOURCES src/mainapp.cpp src/Student.cpp)
